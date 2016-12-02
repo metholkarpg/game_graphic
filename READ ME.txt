@@ -1,0 +1,49 @@
+-- MetholkaRPG v1
+
+MetholkaRPG é um jogo desenvolvido na linguagem Python.
+Foi realizado como projeto de uma atividade proposta para estudo da linguagem Python.
+
+Autores: 	Leoni Murilo (leonim@br) - Squad Holmes, 
+			Rafael Maia (rmaia@br) - Squad Eureka, 
+			Rodrigo Buzato (rbuzato@br) - Squad Metropolis
+			
+
+O projeto consiste num jogo do estilo rpg com uma tela gráfica onde o personagem pode escolher 
+3 tipos de loja (armas, armaduras e itens médicos) para realizar compras ou vendas dos itens.
+
+_________________________________________________________________________________________
+
+
+Link do github para o projeto: https://github.com/metholkarpg/game_graphic
+
+_________________________________________________________________________________________
+
+Observações principais:
+
+- Jogo criado através do Python 3 (última versão), por isso é recomendável a utilização do mesmo para execução.
+- Os seguintes módulos de python devem ser instalados no seu sistema para funcionamento do projeto:
+	> PyGame (módulo gráfico para o jogo)
+		>> pip install pygame
+		
+	> TinyDB (módulo de banco NoSQL que serve como nosso banco de dados)
+		>> pip install tinydb
+
+- É utilizado o módulo Tkinter como auxilio gráfico, portanto deve estar instalado no sistema (já deve vir com o Python 3)
+
+- Para execução, basta rodar o seguinte comando:
+	> python gamegraphic.py
+		>> Lembrando que "python" pode ser modificado para o comando necessário para executar o python 3.
+		>> O comando deve ser executado dentro da pasta MetholkaRPG (no mesmo diretório onde se encontra o arquivo "gamegraphic.py")
+	
+_________________________________________________________________________________________
+
+Controles:
+
+- Menu principal:
+	> Utilize o Mouse
+	
+- Movimentação do personagem:
+	> WASD ou Setas do teclado
+	
+- Acesso às lojas:
+	> Pressione (E) ao estar à frente de uma loja
